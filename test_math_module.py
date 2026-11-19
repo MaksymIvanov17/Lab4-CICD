@@ -21,3 +21,7 @@ def test_factorial_three():
 def test_factorial_negative():
     with pytest.raises(ValueError):
         factorial(-1)
+
+
+def test_factorial_four():
+    assert factorial(4) == 24
